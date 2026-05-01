@@ -2,3 +2,28 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+    /* Базовые значения (можно задать для темы по умолчанию, например, тёмной) */
+    /* Основные цвета */
+    --accent-color: #ff0070;
+    --accent-color-transparent: rgba(255, 0, 112, 0.4);
+    --accent-text-color: #000028;
+    --main-title-color: #db00ff;
+    --text-color: #f1b2ce;
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+
+    /* Шрифты и текст */
+    --main-font: "IBM Plex mono", monospace;
+    --font-size-base: 18px;
+    --line-height-base: 130%;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --space-s: 10px;
+    --space-m: 20px;
+    --space-l: 40px;
+
+    --decorative-element-display: block;
+
+}
