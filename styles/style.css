@@ -290,7 +290,6 @@ a:focus-visible {
     }
     .header {
         grid-template-columns: 1fr 1fr 1fr;
-        min-height: 1024px;
     }
 
     .header__title {
@@ -384,15 +383,6 @@ a:focus-visible {
         margin-top: 43px;
     }
 
-    .section__title {
-        grid-column: 1 / 2;
-        margin-bottom: 0;
-    }
-
-    .section__list {
-        grid-column: 2 / 3;
-    }
-
     /* ---------- Галерея ---------- */
     .gallery {
         gap: 20px;
@@ -436,11 +426,57 @@ a:focus-visible {
     }
 
     /* ---------- Футер ---------- */
-    .footer {
-        min-height: 1024px;
-    }
+    /*.footer {*/
+    /*    min-height: 1024px;*/
+    /*}*/
 
     .footer__title {
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
+}
+
+@media (width >= 1024px) {
+
+    .header{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .header__theme-menu{
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        justify-self: center;
+        width: fit-content;
+        margin: 20px 0 0 0;
+    }
+
+    .header__theme-menu-list {
+        grid-auto-flow: column;
+    }
+
+    .header__description {
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+        align-self: center;
+        justify-self: stretch;
+        width: auto;
+        height: auto;
+    }
+
+    .section--why{
+        gap: 10px;  /* честно не уверен на счет этих отступов потому что в макете 20px, но с этим значением у меня ломается почему то*/
+    }
+
+
+    .section--factors .section__list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        align-items: start;
+    }
+
+
+    .section--tips{
+        gap: 10px;  /* честно не уверен на счет этих отступов потому что в макете 20px, но с этим значением у меня ломается почему то*/
+    }
+
+
+
 }
