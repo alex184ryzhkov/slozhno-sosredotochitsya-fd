@@ -286,7 +286,7 @@ a:focus-visible {
 /* АДАПТИВНОСТЬ ДЛЯ ПЛАНШЕТОВ (>= 768px)         */
 /* ============================================== */
 @media ( width >= 768px ) {
-    .content{
+    .content {
         padding-bottom: 20px;
         padding-inline: var(--space-m, 10px);
     }
