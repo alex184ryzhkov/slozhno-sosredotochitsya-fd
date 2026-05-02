@@ -17,7 +17,7 @@
     --background-color: var(--accent-text-color);
     --background-image: url(../images/cover-image-dark.png);
     --decoration-border-color: var(--accent-color);
-    --title-color: var(--accent-color);
+    --title-color: #ff0070;
     --menu-list-color: var(--accent-color);
     --decorative-element-display: block;
 }
@@ -32,7 +32,7 @@
         --background-color: var(--accent-text-color);
         --background-image: url(../images/cover-image-dark.png);
         --decoration-border-color: var(--accent-color);
-        --title-color: var(--accent-color);
+        --title-color:#ff0070;
         --menu-list-color: var(--accent-color);
         --decorative-element-display: block;
     }

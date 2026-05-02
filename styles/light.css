@@ -16,7 +16,7 @@
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
     --decoration-border-color: var(--accent-text-color);
-    --title-color: var(--accent-text-color);
+    --title-color: #353430;
     --decorative-element-display: none;
     --menu-list-color: var(--accent-text-color);
 }
@@ -29,7 +29,7 @@
         --text-color: var(--accent-text-color);
         --background-image: url(../images/cover-image-light.png);
         --decoration-border-color: var(--accent-text-color);
-        --title-color: var(--accent-text-color);
+        --title-color: #353430;
         --menu-list-color: var(--accent-text-color);
         --decorative-element-display: none;
         --button-focus-color: #353430;

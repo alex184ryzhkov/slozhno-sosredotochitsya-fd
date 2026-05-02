@@ -7,9 +7,9 @@
     /* Основные цвета */
     --accent-color: #ff0070;
     --accent-color-transparent: rgba(255, 0, 112, 0.4);
-    --accent-text-color: #000028;
+    --accent-text-color: #ff0070;
     --main-title-color: #db00ff;
-    --text-color: #f1b2ce;
+    --text-color: #ff0070;
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
 
