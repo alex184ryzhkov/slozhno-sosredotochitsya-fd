@@ -19,6 +19,7 @@
     --title-color: #353430;
     --decorative-element-display: none;
     --menu-list-color: var(--accent-text-color);
+    --accent-color-transparent: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -35,5 +36,6 @@
         --button-focus-color: #353430;
         --button-hover-color: rgba(50, 49, 45, 0.4);
         --background-color: #fff1f7;
+        --accent-color-transparent: #353430;
     }
 }
