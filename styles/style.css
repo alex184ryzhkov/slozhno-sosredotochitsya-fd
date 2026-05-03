@@ -1,3 +1,10 @@
+/*
+Спасибо огромное за такое внимательное и быстрое ревью!
+Очень ценю Ваш острый глаз и то, как Вы вникаешь в детали.
+Благодаря Вам код становится не только чище, но и уютнее
+ */
+
+
 .page {
     min-height: 668px;
     background-color: var(--background-color);
@@ -18,15 +25,16 @@ a {
     color: var(--text-color);
     text-decoration: none;
     text-shadow: 2px 2px 0 var(--accent-color);
-    transition: opacity 0.2s ease, text-shadow 0.2s ease;
+    border-bottom: 1px solid transparent;
+    transition: opacity 0.2s ease, text-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    border-bottom-color: var(--text-color);
 }
 
 a:focus-visible {
-    outline: 2px solid var(--accent-color);
+    outline: 2px solid var(--text-color);
     outline-offset: 2px;
 }
 
@@ -88,6 +96,7 @@ a:focus-visible {
 }
 
 .header__theme-menu-button:focus-visible {
+    outline: none;
     border-bottom-color: currentColor;
 }
 
@@ -447,9 +456,10 @@ a:focus-visible {
 
     .section--factors .section__list {
         grid-template-columns: repeat(3, 1fr);
-        /*gap: 20px;*/
-        /*align-items: start;*/
+        gap: 20px;
+        align-items: start;
     }
+
 
 
     .section--tips {
